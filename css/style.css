@@ -1,0 +1,531 @@
+html {
+	width: 100vw;
+	min-width: 1024px;
+	height: 100vh;
+}
+body {
+	width: 100vw;
+	height: 100vh;
+}
+* {
+	list-style: none;
+	text-decoration: none;
+}
+ul, li {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+.main-header {
+	height: 70px;
+	width: 100vw;
+	position: relative;
+	background-color: #fff;
+	box-shadow: 0 1px 0 0 #e9ecef;
+}
+.main-header_logo {
+	position: absolute;
+	left: 24.6px;
+	top: 25px;
+	bottom: 21.6px;
+	width: 13.6vw;
+}
+.create-meet__off {
+	display: none;
+}
+.create-meet {
+	position: absolute;
+	padding-left: 16px;
+	padding-right: 16px;
+	width: 108px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	height: 16px;
+	top: 18px;
+	right: 24px;
+	bottom: 17px;
+	background-color: #007dff;
+	border-radius: 4px;	
+	font-size: 13px;
+	text-align: center;
+	color: white;
+	display: block;
+}
+.create-meet:hover {
+	background-color: #0059ff;
+}
+.create-meet:active {
+	background-color: #0b00ff;
+}
+
+.new-meet {
+	width: 872px;
+	height: 700px;
+	margin: 0 auto;
+	padding-top: 32px;
+	display: none;
+}
+
+.new-meet__active {
+	display: block;
+	z-index: 100;
+	margin-bottom: -10000px;
+	overflow: hidden;
+}
+.meet-name {
+	width: 400px;
+	height: 24px;
+	font-size: 20px;
+}
+.meet-close-wrap {
+	float: right;
+	height: 24px;
+	width: 400px;
+	text-align: right;
+}
+.meet-close {
+	float: right;
+	height: 21px;
+	width: 17px;
+	border-radius: 100px;
+	background-color: #e9ecef;
+	padding-right: 7px;
+	padding-top: 3px;
+	cursor: pointer;
+	display: inline-block;
+}
+.left {
+	width: 420px;
+	margin-right: 32px;
+	height: inherit;
+	float: left;
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	align-content: flex-start;
+}
+.right {
+	width: 420px;
+
+	height: inherit;
+	float: right;
+	display: flex;
+	justify-content: flex-end;
+	flex-wrap: wrap;
+	align-content: flex-start;
+}
+.left_cell {
+	height: auto;
+	margin-bottom: 24px;
+}
+.right_cell {
+	height: auto;
+	margin-bottom: 24px;
+}
+.theme {
+	width: 406px;
+	height: 15px;
+	outline: none;
+	border: 2px solid #e9ecef;
+	border-radius: 4px;
+	padding-left: 10px;
+	padding-top: 11px;
+	padding-bottom: 12px;
+}
+.theme:hover {
+	border-color: #007dff;
+}
+.theme:active {
+	border-color: #007dff;
+}
+.users {
+	width: 406px;
+	height: 15px;
+	outline: none;
+	border: 2px solid #e9ecef;
+	border-radius: 4px;
+	padding-left: 10px;
+	padding-top: 11px;
+	padding-bottom: 12px;
+	margin-bottom: 12px;
+}
+.users:hover {
+	border-color: #007dff;
+}
+.users:active {
+	border-color: #007dff;
+}
+.user {
+	min-width: 100px;
+	width: auto;
+	max-width: 300px;
+	height: 19px;
+	background-color: #e9ecef;
+	display: inline-block;
+	border-radius: 16px;
+	margin-right: 8px;
+	margin-bottom: 8px;
+	padding-top: 5px;
+	padding-bottom: 4px;
+	font-size: 13px;
+}
+.user > img {
+	border-radius: 16px;
+	display: inherit;
+	float: left;
+}
+.user > p {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 8px
+	padding-right: 10px;
+	display: inherit;
+}
+.day {
+	width: 218px;
+	height: 15px;
+	margin-right: 18px;
+	outline: none;
+	border: 2px solid #e9ecef;
+	border-radius: 4px;
+	padding-left: 10px;
+	padding-top: 11px;
+	padding-bottom: 12px;
+	cursor: pointer;
+	z-index: 4;
+	overflow: hidden;
+	position: relative;
+}
+.day:hover {
+	border-color: #007dff;
+}
+.day:active {
+	border-color: #007dff;
+}
+
+
+.name {
+	font-size: 13px;
+	height: 16px;
+	max-width: 150px;
+}
+.hide {
+	display: none;
+}
+.time {
+	width: 59px;
+	height: 14px;
+	outline: none;
+	border: 2px solid #e9ecef;
+	border-radius: 4px;
+	padding-top: 11px;
+	padding-bottom: 12px;
+	padding-left: 10px;
+	font-size: 13px;
+}
+.time:hover {
+	border-color: #007dff;
+}
+.time:active {
+	border-color: #007dff;
+}
+.qwe {
+	width: 22px;
+	height: 28px;
+	padding-top: 30px;
+	font-size: 13px;
+	text-align: center;
+}
+.talk-room {
+	width: 398px;
+	height: 18px;
+	outline: none;
+	border: 2px solid #e9ecef;
+	background-color: #e9ecef;
+	border-radius: 4px;
+	margin-bottom: 8px;
+	padding-left: 18px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.talk-room__active {
+	background-color: #007dff;
+	color: white;
+}
+.delete-result {
+	float: right;
+	margin-right: 9.1px;
+}
+
+.bottom-cell {
+	width: 100%;
+	border-top: 2px solid #e9ecef;
+	height: 76px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.scale-line {
+	box-shadow: 0 1px 0 0 #e9ecef;
+	background-color: #fff;
+	width: 100vw;
+	min-width: 1280px;
+	height: 35px;
+	padding-top: 11px;
+
+}
+.shedule {
+	width: 15%;
+	height: 35px;
+	padding-left: 24px;
+	float: left;
+}
+
+.prev-day {
+	display: inline-block;
+	float: left;
+	width: 24px;
+	height: 24px;
+	background-color: #E9ECEF;
+	border-radius: 100px;
+	position: relative;
+}
+.prev-day > img {
+	position: absolute;
+	left: 7px;
+	right: 6px;
+	top: 6px;
+	bottom: 7px;
+}
+
+.current-day {
+	display: inline-block;
+	width: 123px;
+	height: 18px;
+	font-size: 15px;
+	color: #000;
+	margin-right: 0;
+	margin-left: 13.5px;
+	padding-top: 2px;
+	cursor: pointer;
+}
+.current-day:hover {
+	color: #0070ed;
+}
+.current-day:active {
+	color: #1d54fe;
+}
+.date {
+	display: none;
+}
+.calendar {
+	width: 572px;
+	height: 200px;
+	position: absolute;
+	top: 134px;
+	left: 24px;
+	border: 16px solid gray;
+}
+.date-on {
+	display: block;
+}
+.dateClose {
+	font-size: 21px;
+	position: absolute;
+	top: 134px;
+	left: 630px;
+	width: 25px;
+	height: 25px;
+	border-radius: 100px;
+	transform: rotate(45deg);
+	text-align: center;
+	border: 5px solid #f6f7f8;
+	background-color: #f6f7f9;
+	cursor: pointer;
+}
+.dateСlose:hover {
+	background-color: #007ddf;
+	border: 5px solid #f6f7f8;
+}
+.next-day {
+	display: inline-block;
+	float: right;
+	width: 24px;
+	height: 24px;
+	background-color: #E9ECEF;
+	border-radius: 100px;
+	position: relative;
+}
+.next-day > img {
+	position: absolute;
+	left: 9px;
+	right: 5px;
+	top: 6px;
+	bottom: 7px;
+}
+
+.time-line {
+	padding-left: 8px;
+	
+	
+	width: 80.9%;
+	height: 21px;
+	float: right;
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+}
+.time-line_item {
+	
+	width: 49px;
+	height: 13px;
+	margin-right: 13.5px;
+	
+	font-size: 11px;
+	text-align: center;
+	overflow: hidden;
+}
+.time-line_item:nth-child(16) {
+	width: 30px;
+	margin-right: 0;
+}
+.time-line_item__active {
+	background-color: #007dff;
+	border-radius: 100px;
+	height: 14px;
+	padding-top: 4px;
+	padding-bottom: 3px;
+	width: 49px;
+	text-align: center;
+	color: #fff;
+}
+/* hard place */
+.time-line-item__active:before {
+	content: "|";
+	width: 10px;
+	height: 100px;
+	color: red;
+}
+
+.main-content {
+	display: flex;
+	width: 100vw;
+}
+
+.places {
+	width: 220px;
+	height: 637px;
+	padding-left: 25px;
+	padding-top: 21px;
+	margin-right: 0;
+	box-shadow: 1px 0 0 0 #e9ecef;
+}
+.floor {
+	width: 150px;
+	height: 13px;
+	font-size: 11px;
+	margin-bottom: 8px;
+}
+.room {
+	font-size: 15px;
+	width: 191px;
+	height: 44px;
+	text-align: left;
+	margin-bottom: 16px;
+}
+.room:nth-child(5) {
+	margin-bottom: 24px;
+}
+.room > h2 {
+	margin-top: 0;
+	padding-bottom: 0;
+	margin-bottom: 2px;
+	font-size: 15px;
+}
+.room > h2:hover {
+	color: #0070ed;
+}
+.room > h2:active {
+	color: #1d54fe;
+}
+.room > p {
+	margin-bottom: 0;
+	margin-top: 0;
+	font-size: 13px;
+	height: 17px;
+}
+
+.zone {
+	float: right;
+	width: ;
+	border: 0;
+	margin-left: 24px;
+}
+td {
+	background-color: #f6f7f9;
+}
+.empty-layer-top {
+	height: 42px;
+}
+.empty-layer-center {
+	height: 28px;
+}
+.empty-layer-custom {
+	height: 62px;
+}
+.empty-layer-top > .cell {
+	background-color: #f6f7f9;
+}
+.empty-layer-center > .cell {
+	background-color: #f6f7f9;
+}
+
+
+
+.cell {
+	width: 64px;
+	height: 28px;
+	background-color: #fff;
+	border-color: #e9ecef;
+	text-align: center;
+	font-size: 0;
+	color: white;
+}
+.cell:hover {
+	font-size: 14px;
+	background-color: #2b50fd;
+}
+.cell:active {
+	font-size: 14px;
+	background-color: #1d00fe;
+}
+.vacant {
+	background-color: #d5dfe9;
+	font-size: 0;
+}
+.vacant:hover {
+	background-color: #98a9b9;
+}
+.vacant:active {
+	background-color: #98a9b9;
+	opacity: 12%;
+}
+

@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Yandex</title>
+	<link href="css/normalize.min.css" type="text/css" rel="stylesheet">
+	<link href="css/style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<header class="main-header">
+	<a href="index.html" class="main-header_logo">
+		<img src="img/logo.svg" alt="yandex-logo" width="173.9px" height="24.4px">
+	</a>
+	<a href="#" class="create-meet__off create-meet">
+		Создать встречу
+	</a>
+</header>
+
+<form class="new-meet">
+
+
+	<div class="left">
+		<div class="left_cell">
+			<div class="meet-name">Новая встреча</div>
+		</div>
+		<div class="left_cell">
+			<div class="name">Тема</div>
+			<input type="text" name="" class="theme">
+			
+		</div>
+		<div class="left_cell">
+			<div class="name">Участники</div>
+			<input type="text" name="" class="users" id="users">
+			<div class="user">
+				<img src="img/emoji1.svg" width="24px" height="24px">
+				<p>Thomas Anderson</p>
+				<div class="meet-close">
+					<img src="img/close.svg" width="auto" height="auto">
+				</div>
+			</div>
+			<div class="user">
+				<img src="img/emoji2.svg" width="24px" height="24px">
+				<p>Neo</p>
+				<div class="meet-close">
+					<img src="img/close.svg" width="auto" height="auto">
+				</div>
+			</div>
+			<div class="user">
+				<img src="img/emoji1.svg" width="24px" height="24px">
+				<p>juke</p>
+				<div class="meet-close">
+					<img src="img/close.svg" width="auto" height="auto">
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	<div class="right">
+		<div class="right_cell">
+			<div class="meet-close-wrap">
+				<div class="meet-close" id="meetClose">
+					<img src="img/close.svg" width="auto" height="auto">
+				</div>
+			</div>
+		</div>
+		<div class="right_cell">
+			<div class="name">Дата</div>
+			<input type="date" name="" id="date-chooser" class="day">	
+		</div>
+		<div class="right_cell">
+			<div class="name">Начало</div>
+			<input type="time" name="" class="time">
+		</div>
+		
+			<div class="qwe">-</div>	
+		
+		<div class="right_cell">
+			<div class="name">Конец</div>
+			<input type="time" name="" class="time">
+		</div>
+		<div class="right_cell">
+			<div class="name">Ваша переговорка</div>
+			<div class="talk-room talk-room__active">
+				16.00-16.30 Маями бич ♥ 4 этаж
+				<div class="delete-result">
+					<img src="img/close.svg">
+				</div>
+			</div>
+			<div class="talk-room"></div>
+			<div class="talk-room"></div>
+		</div>
+		</div>
+
+		<div class="bottom-cell">
+			
+		</div>
+</form>
+
+
+
+
+<nav class="scale-line" id="scaleLine">
+	<ul class="shedule">
+		<li class="prev-day">
+			<img src="img/arrow2.svg" alt="previous">
+		</li>
+		<li class="current-day">
+		15 dec ♥ Today
+		</li>
+		<li class="next-day">
+			<img src="img/arrow.svg" alt="next">
+		</li>
+	</ul>
+	<ul class="time-line">
+		<li class="time-line_item">8</li>
+		<li class="time-line_item">9</li>
+		<li class="time-line_item">10</li>
+		<li class="time-line_item time-line_item__active">11.00</li>
+		<li class="time-line_item">12</li>
+		<li class="time-line_item">13</li>
+		<li class="time-line_item">14</li>
+		<li class="time-line_item">15</li>
+		<li class="time-line_item">16</li>
+		<li class="time-line_item">17</li>
+		<li class="time-line_item">18</li>
+		<li class="time-line_item">19</li>
+		<li class="time-line_item">20</li>
+		<li class="time-line_item">21</li>
+		<li class="time-line_item">22</li>
+		<li class="time-line_item">23</li>
+	</ul>
+</nav>
+<section class="main-content">
+	<ul class="places">
+		<li class="floor">7 ЭТАЖ</li>
+		<li class="room">
+			<h2>
+				Ржавый Фред
+			</h2>
+			<p>до 10 человек</p>
+		</li>
+		<li class="room">
+			<h2> 
+				Прачечная
+			</h2>
+			<p>до 10 человек</p>
+		</li>
+		<li class="room">
+			<h2>
+				Жёлтый дом
+			</h2>
+			<p>до 10 человек</p>
+		</li>
+		<li class="room">
+			<h2>
+				Оранжквый тюльпан
+			</h2>
+			<p>до 10 человек</p>
+		</li>
+		<li class="floor">6 ЭТАЖ</li>
+		<li class="room">
+			<h2>
+				Джокер
+			</h2>
+			<p>3-6 человек</p>
+		</li>
+		<li class="room">
+			<h2>
+				Мариванна
+			</h2>
+			<p>3-6 человек</p>
+		</li>
+		<li class="room">
+			<h2>
+				Тонкий боб
+			</h2>
+			<p>3-6 человек</p>
+		</li>
+		<li class="room">
+			<h2>
+				Чёрная вдова
+			</h2>
+			<p>3-6 человек</p>
+		</li>
+		<li class="room">
+			<h2>
+				Белорусский ликёр
+			</h2>
+			<p>3-6 человек</p>
+		</li>
+	</ul>
+		<table class="zone" border="1">
+			<tr class="empty-layer-top">
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+			</tr>
+
+			<tr class="cells-row-item">
+				<td class="cell vacant">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+			</tr>
+
+			<tr class="empty-layer-center">
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+			</tr>
+
+			<tr class="cells-row-item">
+				<td class="cell vacant">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				
+			</tr>
+
+			<tr class="empty-layer-center">
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+			</tr>
+
+			<tr class="cells-row-item">
+				<td class="cell vacant">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+			</tr>
+
+			<tr class="empty-layer-center">
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+			</tr>
+
+			<tr class="cells-row-item">
+				<td class="cell vacant">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+			</tr>
+
+			<tr class="empty-layer-custom">
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+			</tr>
+
+			<tr class="cells-row-item">
+				<td class="cell vacant">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+			</tr>
+
+			<tr class="empty-layer-center">
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+			</tr>
+
+			<tr class="cells-row-item">
+				<td class="cell vacant">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+			</tr>
+
+			<tr class="empty-layer-center">
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+			</tr>
+
+			<tr class="cells-row-item">
+				<td class="cell vacant">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+			</tr>
+
+			<tr class="empty-layer-center">
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+			</tr>
+
+			<tr class="cells-row-item">
+				<td class="cell vacant">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+			</tr>
+
+			<tr class="empty-layer-center">
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+				<td class=""></td>
+			</tr>
+
+			<tr class="cells-row-item">
+				<td class="cell vacant">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+				<td class="cell">+</td>
+			</tr>
+		</table>
+	
+</section>
+
+<script type="text/javascript">
+	var newMeetBtn = document.querySelector('.create-meet');
+	var newMeetWindow = document.querySelector('.new-meet');
+
+
+	newMeetBtn.addEventListener('click', function(event) {
+		event.preventDefault();
+		newMeetWindow.classList.add('new-meet__active');
+		if (newMeetBtn.classList.contains('create-meet')) {
+			newMeetBtn.classList.remove('create-meet');
+		};
+	});
+
+
+	var meetClose = document.querySelector('#meetClose');
+
+	meetClose.addEventListener('click', function(event) {
+		newMeetWindow.classList.remove('new-meet__active');
+	if (newMeetBtn.classList.contains('create-meet__off')) {
+			newMeetBtn.classList.add('create-meet');
+		};
+	});
+</script>
+
+
+</body>
+</html>
