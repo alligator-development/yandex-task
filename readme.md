@@ -1,0 +1,1 @@
+Второе задание для Яндекс.Переговорки. (не доделано)"# yandex-task"  git init git add README.md git commit -m "first commit" git remote add origin https://github.com/alligator-development/yandex-task.git git push -u origin master
